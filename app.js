@@ -13,6 +13,6 @@ app.use(async (ctx, next) => {
 
 app.use(catcher)
 // this musu be the last one
-app.use(controller());
+app.use(controller);
 
 app.listen(3000)

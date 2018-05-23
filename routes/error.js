@@ -1,5 +1,9 @@
-module.exports = {
-  'GET /error': async (ctx, next) => {
-    ctx.throw(500)
+module.exports = [
+  {
+    method: 'GET',
+    path: '/error',
+    func: async (ctx, next) => {
+      ctx.throw(500)
+    }
   }
-}
+]
