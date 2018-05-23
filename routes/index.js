@@ -7,7 +7,7 @@ module.exports = [
         name: '<Nunjucks>',
         fruits: ['Apple', 'Pear', 'Banana'],
         count: 12000
-      })
+      }, ctx)
     }
   },
   {
