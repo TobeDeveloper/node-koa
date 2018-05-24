@@ -14,8 +14,9 @@
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
     "koa-static": "^4.0.3",
-    "mysql": "^2.15.0",
-    "sequelize": "^4.37.8"
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.8",
+    "uuid": "^3.2.1"
   },
   "devDependencies": {
     "koa-compose": "^4.1.0",

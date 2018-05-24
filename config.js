@@ -1,4 +1,4 @@
-module.export = config = {
+module.exports = {
   database: 'test',
   username: 'root',
   password: 'root',
